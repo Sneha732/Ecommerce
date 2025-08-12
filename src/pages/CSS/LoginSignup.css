@@ -1,0 +1,145 @@
+.loginsignup {
+  width: 100%;
+  min-height: 100vh;
+  background: #fce3fe;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginsignup-container {
+  width: 100%;
+  max-width: 580px;
+  background: white;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.loginsignup-container h1 {
+  margin: 20px 0px;
+  font-size: 2rem;
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.loginsignup-fields input {
+  height: 55px;
+  width: 100%;
+  padding-left: 16px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.loginsignup-container button {
+  width: 100%;
+  height: 55px;
+  color: white;
+  background-color: #ff4141;
+  margin-top: 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginsignup-login {
+  margin-top: 20px;
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.loginsignup-login span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.loginsignup-agree {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 25px;
+  gap: 10px;
+  color: #5c5c5c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.loginsignup-agree input {
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .loginsignup-container {
+    padding: 30px 20px;
+  }
+
+  .loginsignup-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .loginsignup-container button {
+    font-size: 16px;
+  }
+
+  .loginsignup-fields input {
+    height: 50px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .loginsignup-container h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .loginsignup-agree {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;
+  }
+
+  .loginsignup-container button {
+    height: 50px;
+    font-size: 15px;
+  }
+}
+
+.loginsignup-close {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.loginsignup-close:hover {
+  transform: scale(1.2);
+}
+
+.loginsignup-container {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+  background: white;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
